@@ -9,6 +9,7 @@ console.log("MY SECRET PASSWORD IS!!!!! ", process.env.SECRET_PASSWORD);
 const PORT = process.env.PORT || 8080;
 const db = require("./models");
 
+const noah = "neverused";
 // Creating express app and configuring middleware needed for authentication
 const app = express();
 app.use(express.urlencoded({ extended: true }));
